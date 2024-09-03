@@ -14,7 +14,7 @@ const initialiseDatabase = async () => {
       driver: sqlite3.Database,
     });
     app.listen(3000, () => {
-      console.log("server is running Successfully...");
+      console.log("server is running..");
     });
   } catch (e) {
     console.log(`Error in database${e.message}`);
